@@ -8,25 +8,25 @@
         <form method="post" action="./login">   <!-- For Servlet Login Validation -->
             <input type="hidden" name=methodType" value="login"/>
             <center>
-                <h2 style="color: green">Login Page</h2>
+                <h2 style="color: green">Pagina de login</h2>
             </center>
                     
             <table border="1" align="center">
                 <tr>
-                    <td>User Name :</td>
-                    <td><input type="text" name="username" value="admin"/></td>
+                    <td>Nome :</td>
+                    <td><input type="text" name="Nome" value="nome"/></td>
                 </tr>
                 <tr>
-                    <td>Password :</td>
-                    <td><input type="password" name="password" value="admin"/></td>
+                    <td>Senha:</td>
+                    <td><input type="Senha" name="Nome" value="senha"/></td>
                 </tr>
                 <tr/>
                 <br/>
                 <tr>
-                    <td>Role Type</td>
+                    <td>Tipo conta</td>
                     <td>
                         <select name="rolename">
-                            <option value="">Select Role Type</option>
+                            <option value="">Tipo</option>
                             <option value="admin">Admin</option>
                             <option value="ops_user">Operation User</option>
                             <option value="ops_user">Finance</option>
@@ -37,12 +37,12 @@
                 <br/>
                 <tr>
                     <td></td>
-                    <td><input type="submit" value="submit" /></td>
+                    <td><input type="submit" value="enter" /></td>
                 </tr> 
             </table>
         </form>
             
         <br>
-        <center>New User?? Registered here: <a href="registration.jsp">Register Me</a></center>
+        <center>Novo Usuario?? Registre-se Aqui: <a href="registration.jsp">Novo Registro</a></center>
     </body>
 </html>
